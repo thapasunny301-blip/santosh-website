@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Santosh Thapa, Mechanical Engineering undergraduate with a Biology minor in Dallas, Texas. Resume, projects, and research interests in physics, biomechanics, and bioengineering.">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Santosh Thapa – Mechanical Engineering Undergraduate">
+<meta property="og:description" content="Mechanical Engineering and Biology minor. Interested in biomechanics, physics, and bioengineering research.">
+<title>Santosh Thapa – Mechanical Engineering Undergraduate</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#EEF2F7; --panel:#FFFFFF; --ink:#142033; --muted:#52607A; --line:#D3DBE8; --accent:#2446D8; --accent-ink:#FFFFFF;
+  --display:'Bricolage Grotesque','Helvetica Neue',Arial,sans-serif;
+  --body:'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#0F1624; --panel:#172136; --ink:#E8EDF7; --muted:#9AA8C4; --line:#2A3752; --accent:#7C98FF; --accent-ink:#0F1624;}
+}
+:root[data-theme="dark"]{--bg:#0F1624; --panel:#172136; --ink:#E8EDF7; --muted:#9AA8C4; --line:#2A3752; --accent:#7C98FF; --accent-ink:#0F1624;}
+html{height:100%;scroll-padding-top:env(safe-area-inset-top,0px);}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 var(--body);}
+a{color:var(--accent)}
+a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:48px 24px;display:grid;grid-template-columns:280px 1fr;gap:56px}
+aside{position:sticky;top:calc(24px + env(safe-area-inset-top,0px));align-self:start}
+.avatar{width:96px;height:96px;border-radius:50%;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;font:700 36px var(--display);margin-bottom:20px}
+h1{font:700 clamp(34px,5vw,46px)/1.05 var(--display);margin:0 0 8px;letter-spacing:-.02em}
+.role{color:var(--muted);margin:0 0 24px}
+.contact{list-style:none;padding:0;margin:0 0 24px;display:grid;gap:10px}
+.contact span{color:var(--muted);display:block;font-size:14px}
+.contact a,.contact li{overflow-wrap:anywhere}
+.btn{display:inline-block;background:var(--accent);color:var(--accent-ink);padding:10px 18px;border-radius:8px;text-decoration:none;font-weight:500}
+main section{margin-bottom:48px}
+h2{font:700 26px/1.2 var(--display);margin:0 0 20px;letter-spacing:-.01em}
+h3{font:500 18px/1.3 var(--body);margin:0}
+.meta{color:var(--muted);font-size:15px;margin:2px 0 8px}
+.timeline{border-left:2px solid var(--line);padding-left:24px;display:grid;gap:28px}
+.job{position:relative}
+.job::before{content:"";position:absolute;left:-31px;top:8px;width:12px;height:12px;border-radius:50%;background:var(--accent);border:3px solid var(--bg)}
+ul.plain{margin:8px 0 0;padding-left:20px}
+ul.plain li{margin-bottom:4px}
+.cols{columns:2;column-gap:32px}
+.cols li{break-inside:avoid}
+.tags{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:0}
+.tags li{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:4px 12px;font-size:15px}
+.proj{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin-bottom:14px}
+.btn.alt{background:transparent;color:var(--accent);border:2px solid var(--accent);font:500 17px var(--body);cursor:pointer;margin-left:8px}
+.btn.alt:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.field{display:grid;gap:6px;margin-bottom:14px}
+.field label{font-size:15px;color:var(--muted)}
+.field input,.field textarea{font:400 17px var(--body);color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:10px 12px;width:100%}
+.field input:focus-visible,.field textarea:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.note{color:var(--muted);font-size:15px;margin-top:12px}
+.chat{display:flex;flex-wrap:wrap;gap:12px}
+footer{color:var(--muted);font-size:14px;border-top:1px solid var(--line);padding-top:16px}
+@media (max-width:820px){
+  .wrap{grid-template-columns:1fr;gap:32px;padding:32px 20px}
+  aside{position:static}
+  .cols{columns:1}
+}
+
+:root{--bio:#0E9F6E;--phys:#E8590C}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bio:#34D399;--phys:#FB923C}}
+:root[data-theme="dark"]{--bio:#34D399;--phys:#FB923C}
+body{background:radial-gradient(900px 600px at 0% 0%,color-mix(in srgb,var(--accent) 16%,transparent),transparent 70%),radial-gradient(800px 600px at 100% 100%,color-mix(in srgb,var(--bio) 16%,transparent),transparent 70%),var(--bg)}
+body::before{content:"";position:fixed;top:0;left:0;right:0;height:6px;background:linear-gradient(90deg,var(--accent),var(--bio),var(--phys));z-index:5}
+.bg{position:fixed;inset:0;width:100%;height:100%;z-index:-1;pointer-events:none;opacity:.28}
+.spin{transform-origin:1000px 170px;animation:spin 50s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.spin{animation:none}}
+.avatar{background:linear-gradient(135deg,var(--accent),var(--bio))}
+aside{background:var(--panel);background:color-mix(in srgb,var(--panel) 88%,transparent);border:1px solid var(--line);border-top:5px solid var(--accent);border-radius:14px;padding:24px}
+main section{background:var(--panel);background:color-mix(in srgb,var(--panel) 90%,transparent);border:1px solid var(--line);border-radius:14px;padding:26px 28px;margin-bottom:22px}
+h2{padding-left:14px;border-left:6px solid var(--accent)}
+main section:nth-of-type(3n+2) h2{border-left-color:var(--bio)}
+main section:nth-of-type(3n) h2{border-left-color:var(--phys)}
+ul.plain li::marker{color:var(--phys)}
+.proj{border-top:5px solid var(--accent)}
+.proj:nth-of-type(2){border-top-color:var(--bio)}
+.proj:nth-of-type(3){border-top-color:var(--phys)}
+.proj{background:var(--bg)}
+.bio .tags li{border-color:var(--bio);color:var(--bio);background:color-mix(in srgb,var(--bio) 10%,transparent)}
+.phy .tags li{border-color:var(--phys);color:var(--phys);background:color-mix(in srgb,var(--phys) 10%,transparent)}
+.job:nth-child(2)::before{background:var(--bio)}
+.btn:hover{filter:brightness(1.1)}
+</style>
+</head>
+<body>
+<svg class="bg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true" fill="none" stroke-width="2.5" stroke-linecap="round">
+<g class="spin" stroke="var(--accent)"><ellipse cx="1000" cy="170" rx="95" ry="34"/><ellipse cx="1000" cy="170" rx="95" ry="34" transform="rotate(60 1000 170)"/><ellipse cx="1000" cy="170" rx="95" ry="34" transform="rotate(120 1000 170)"/><circle cx="1095" cy="170" r="7" fill="var(--accent)"/><circle cx="952" cy="252" r="7" fill="var(--accent)"/><circle cx="952" cy="88" r="7" fill="var(--accent)"/></g>
+<circle cx="1000" cy="170" r="13" fill="var(--phys)" stroke="none"/>
+<g stroke="var(--bio)"><path d="M110.0 330.0 L121.7 340.0 L132.3 350.0 L140.7 360.0 L146.1 370.0 L148.0 380.0 L146.1 390.0 L140.7 400.0 L132.3 410.0 L121.7 420.0 L110.0 430.0 L98.3 440.0 L87.7 450.0 L79.3 460.0 L73.9 470.0 L72.0 480.0 L73.9 490.0 L79.3 500.0 L87.7 510.0 L98.3 520.0 L110.0 530.0 L121.7 540.0 L132.3 550.0 L140.7 560.0 L146.1 570.0 L148.0 580.0 L146.1 590.0 L140.7 600.0 L132.3 610.0 L121.7 620.0 L110.0 630.0 L98.3 640.0 L87.7 650.0 L79.3 660.0 L73.9 670.0 L72.0 680.0 L73.9 690.0 L79.3 700.0 L87.7 710.0 L98.3 720.0 L110.0 730.0 L121.7 740.0 L132.3 750.0 L140.7 760.0 L146.1 770.0 L148.0 780.0 L146.1 790.0 L140.7 800.0 L132.3 810.0 L121.7 820.0 L110.0 830.0"/><path d="M110.0 330.0 L98.3 340.0 L87.7 350.0 L79.3 360.0 L73.9 370.0 L72.0 380.0 L73.9 390.0 L79.3 400.0 L87.7 410.0 L98.3 420.0 L110.0 430.0 L121.7 440.0 L132.3 450.0 L140.7 460.0 L146.1 470.0 L148.0 480.0 L146.1 490.0 L140.7 500.0 L132.3 510.0 L121.7 520.0 L110.0 530.0 L98.3 540.0 L87.7 550.0 L79.3 560.0 L73.9 570.0 L72.0 580.0 L73.9 590.0 L79.3 600.0 L87.7 610.0 L98.3 620.0 L110.0 630.0 L121.7 640.0 L132.3 650.0 L140.7 660.0 L146.1 670.0 L148.0 680.0 L146.1 690.0 L140.7 700.0 L132.3 710.0 L121.7 720.0 L110.0 730.0 L98.3 740.0 L87.7 750.0 L79.3 760.0 L73.9 770.0 L72.0 780.0 L73.9 790.0 L79.3 800.0 L87.7 810.0 L98.3 820.0 L110.0 830.0"/><path d="M110.0 330.0L110.0 330.0M146.1 370.0L73.9 370.0M132.3 410.0L87.7 410.0M87.7 450.0L132.3 450.0M73.9 490.0L146.1 490.0M110.0 530.0L110.0 530.0M146.1 570.0L73.9 570.0M132.3 610.0L87.7 610.0M87.7 650.0L132.3 650.0M73.9 690.0L146.1 690.0M110.0 730.0L110.0 730.0M146.1 770.0L73.9 770.0M132.3 810.0L87.7 810.0" stroke-width="2"/></g>
+<g stroke="var(--bio)"><circle cx="1050" cy="690" r="64"/><circle cx="1050" cy="690" r="22" fill="var(--bio)" fill-opacity=".5"/><circle cx="930" cy="790" r="38"/><circle cx="930" cy="790" r="13" fill="var(--bio)" fill-opacity=".5"/><circle cx="1130" cy="800" r="26"/><circle cx="1130" cy="800" r="9" fill="var(--bio)" fill-opacity=".5"/></g>
+<g stroke="var(--phys)"><path d="M0 870.0 L20 878.0 L40 883.9 L60 886.0 L80 883.8 L100 877.8 L120 869.7 L140 861.7 L160 856.0 L180 854.0 L200 856.4 L220 862.4 L240 870.5 L260 878.5 L280 884.2 L300 886.0 L320 883.5 L340 877.4 L360 869.2 L380 861.3 L400 855.7 L420 854.0 L440 856.6 L460 862.9 L480 871.0 L500 878.9 L520 884.4 L540 886.0 L560 883.2 L580 876.9 L600 868.7 L620 860.9 L640 855.5 L660 854.1 L680 856.9 L700 863.4 L720 871.6 L740 879.4 L760 884.6 L780 885.9 L800 882.9 L820 876.4 L840 868.2 L860 860.4 L880 855.3 L900 854.1 L920 857.2 L940 863.8 L960 872.1 L980 879.8 L1000 884.8 L1020 885.8 L1040 882.6 L1060 875.9 L1080 867.7 L1100 860.0 L1120 855.1 L1140 854.2 L1160 857.6 L1180 864.3 L1200 872.6"/><path d="M0 110.0 L20 117.8 L40 124.6 L60 129.5 L80 131.9 L100 131.3 L120 128.0 L140 122.4 L160 115.1 L180 107.1 L200 99.6 L220 93.4 L240 89.3 L260 88.0 L280 89.6 L300 93.8 L320 100.1 L340 107.8 L360 115.7 L380 122.9 L400 128.4 L420 131.5 L440 131.8 L460 129.2 L480 124.1 L500 117.2 L520 109.3 L540 101.6 L560 94.9 L580 90.2 L600 88.1 L620 88.8 L640 92.4 L660 98.2 L680 105.6 L700 113.5"/><circle cx="330" cy="760" r="46"/><circle cx="330" cy="760" r="60" stroke-dasharray="9 7" stroke-width="10"/><circle cx="330" cy="760" r="14"/></g>
+<g fill="var(--accent)" stroke="none" font-family="var(--display)" font-weight="700"><text x="560" y="520" font-size="46">E = mc²</text><text x="250" y="560" font-size="38" fill="var(--phys)">F = ma</text><text x="760" y="420" font-size="40" fill="var(--bio)">ΔG</text><text x="640" y="760" font-size="40">ψ</text></g>
+</svg>
+<div class="wrap">
+  <aside>
+    <div class="avatar" aria-hidden="true">ST</div>
+    <h1>Santosh Thapa</h1>
+    <p class="role">Mechanical Engineering undergraduate · Biology minor · Physics and interdisciplinary research</p>
+    <ul class="contact">
+      <li><span>Email</span><a href="mailto:thapasunny301@gmail.com">thapasunny301@gmail.com</a></li>
+      <li><span>Phone</span><a href="tel:+12105749644">210-574-9644</a></li>
+      <li><span>Location</span>Dallas, Texas</li>
+      <li><span>LinkedIn</span><a href="https://linkedin.com/in/santos-thapa-b657a1326" rel="noopener">linkedin.com/in/santos-thapa-b657a1326</a></li>
+    </ul>
+    <a class="btn" href="https://mail.google.com/mail/?view=cm&fs=1&to=thapasunny301@gmail.com&su=Hello%20Santosh" target="_blank" rel="noopener">Email me</a>
+    <button class="btn alt" id="dl" type="button" hidden>Download resume (PDF)</button>
+  </aside>
+
+  <main>
+    <section>
+      <h2>Profile</h2>
+      <p>Mechanical Engineering undergraduate with a minor in Biology and a broad foundation in life sciences, from cellular processes to whole-organism systems. Interested in fundamental physics, quantum phenomena, biomechanics, biological systems, and interdisciplinary research connecting engineering, physics, and biology. Seeking undergraduate research, engineering internship, and STEM opportunities.</p>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <div class="timeline">
+        <div class="job">
+          <h3>Dallas College</h3>
+          <p class="meta">Associate Degree, 2026</p>
+        </div>
+        <div class="job">
+          <h3>Midwestern State University</h3>
+          <p class="meta">B.S. Mechanical Engineering, Minor in Biology. Expected 2029</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Technical and scientific skills</h2>
+      <ul class="plain cols">
+        <li>Engineering mechanics and quantitative problem-solving</li>
+        <li>Fundamental physics and quantum concepts</li>
+        <li>Mathematical and physics-based analysis</li>
+        <li>Biology, physiology, and biological systems</li>
+        <li>Mechanical systems and energy conversion</li>
+        <li>Biomechanics and bioengineering concepts</li>
+        <li>Engineering design concepts and mechanical modeling</li>
+        <li>Scientific research and technical communication</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Selected projects and academic studies</h2>
+      <div class="proj">
+        <h3>Automotive Engine Mechanics Study</h3>
+        <ul class="plain">
+          <li>Studied the four-stroke engine cycle, piston motion, connecting rods, crankshaft, torque, power, and drivetrain motion.</li>
+          <li>Applied physics and engineering principles to understand mechanical energy conversion.</li>
+        </ul>
+      </div>
+      <div class="proj">
+        <h3>Physics–Biology Interdisciplinary Study</h3>
+        <ul class="plain">
+          <li>Explored how physical principles can describe biological movement, forces, structure, and function.</li>
+          <li>Developed interest in biomechanics and the connection between mechanical engineering and living systems.</li>
+        </ul>
+      </div>
+      <div class="proj">
+        <h3>Engineering Design and Problem-Solving</h3>
+        <ul class="plain">
+          <li>Applied mathematical and physics-based reasoning to conceptual mechanical engineering problems.</li>
+          <li>Explored mechanical systems, design principles, modeling, and engineering problem-solving.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="bio">
+      <h2>Biology background</h2>
+      <p>Broad interest spanning cellular and molecular biology through whole-organism systems.</p>
+      <ul class="tags">
+        <li>Cell Biology</li><li>Genetics</li><li>Physiology</li><li>Anatomy</li><li>Botany</li><li>Zoology</li><li>Ecology</li><li>Living Systems</li><li>Structure–Function Relationships</li><li>Biomechanics</li><li>Bioengineering</li>
+      </ul>
+    </section>
+
+    <section class="phy">
+      <h2>Research interests</h2>
+      <ul class="tags">
+        <li>Quantum Physics</li><li>Fundamental Physics</li><li>Biomechanics</li><li>Mechanical Systems</li><li>Biological Systems</li><li>Bioengineering</li><li>Physics–Biology Interface</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Leadership and volunteering</h2>
+      <ul class="plain">
+        <li>Participated in environmental service and awareness events.</li>
+        <li>Participated in engineering and mathematics STEM events.</li>
+        <li>Held club leadership responsibilities during high school.</li>
+        <li>Developed experience in teamwork, organization, event participation, and peer engagement.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Career goal</h2>
+      <p>Seeking opportunities in undergraduate research, engineering internships, STEM projects, and faculty-led research to develop practical engineering and research experience while exploring the connections between mechanical engineering, biology, and fundamental physics.</p>
+    </section>
+
+    <section id="ask">
+      <h2>Ask a question</h2>
+      <p>Have a question about my studies, projects, or research interests? Write it below and it will open as an email to me.</p>
+      <div class="field"><label for="q-name">Your name</label><input id="q-name" type="text" autocomplete="name"></div>
+      <div class="field"><label for="q-text">Your question</label><textarea id="q-text" rows="4"></textarea></div>
+      <a class="btn" id="q-send" href="mailto:thapasunny301@gmail.com" target="_blank" rel="noopener">Send question</a>
+      <p class="note">Not using Gmail? Write to <strong id="mail-text">thapasunny301@gmail.com</strong> from any email app.</p>
+      <button class="btn alt" id="copy-mail" type="button" style="margin-left:0">Copy email address</button>
+    </section>
+
+    <section id="chat">
+      <h2>Chat with me</h2>
+      <p>For research, internship, or STEM opportunities, or just to say hello, message me on LinkedIn or by email.</p>
+      <div class="chat">
+        <a class="btn" href="https://linkedin.com/in/santos-thapa-b657a1326" target="_blank" rel="noopener">Message on LinkedIn</a>
+        <a class="btn alt" style="margin-left:0" href="https://mail.google.com/mail/?view=cm&fs=1&to=thapasunny301@gmail.com&su=Hello%20Santosh" target="_blank" rel="noopener">Start an email chat</a>
+      </div>
+    </section>
+
+    <section id="aichat" hidden>
+      <h2>Ask my AI assistant</h2>
+      <p>Ask anything about my education, projects, skills, or research interests. Answers come from my resume.</p>
+      <div class="field"><label for="ai-q">Your question</label><input id="ai-q" type="text" maxlength="300" placeholder="For example: What research topics interest Santosh?"></div>
+      <button class="btn" id="ai-go" type="button" style="border:0;font:500 17px var(--body);cursor:pointer">Ask</button>
+      <p class="note" id="ai-out" aria-live="polite"></p>
+    </section>
+
+    <footer>Last updated October 2026</footer>
+  </main>
+</div>
+<script>
+(function(){
+  var n=document.getElementById("q-name"),t=document.getElementById("q-text"),s=document.getElementById("q-send");
+  function u(){
+    var body=t.value+(n.value?"\n\nFrom: "+n.value:"");
+    s.href="https://mail.google.com/mail/?view=cm&fs=1&to=thapasunny301@gmail.com&su="+encodeURIComponent("Question from your website")+"&body="+encodeURIComponent(body);
+  }
+  n.addEventListener("input",u);t.addEventListener("input",u);u();
+})();
+</script>
+<script>
+(function(){
+  var B64="JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUgo+PgplbmRvYmoKMiAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYSAvRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZyAvTmFtZSAvRjEgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVuZG9iagozIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhLUJvbGQgL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcgL05hbWUgL0YyIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+PgplbmRvYmoKNCAwIG9iago8PAovQ29udGVudHMgOCAwIFIgL01lZGlhQm94IFsgMCAwIDYxMiA3OTIgXSAvUGFyZW50IDcgMCBSIC9SZXNvdXJjZXMgPDwKL0ZvbnQgMSAwIFIgL1Byb2NTZXQgWyAvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJIF0KPj4gL1JvdGF0ZSAwIC9UcmFucyA8PAoKPj4gCiAgL1R5cGUgL1BhZ2UKPj4KZW5kb2JqCjUgMCBvYmoKPDwKL1BhZ2VNb2RlIC9Vc2VOb25lIC9QYWdlcyA3IDAgUiAvVHlwZSAvQ2F0YWxvZwo+PgplbmRvYmoKNiAwIG9iago8PAovQXV0aG9yIChTYW50b3NoIFRoYXBhKSAvQ3JlYXRpb25EYXRlIChEOjIwMjYxMDAyMTYyNTIwKzAwJzAwJykgL0NyZWF0b3IgKFwodW5zcGVjaWZpZWRcKSkgL0tleXdvcmRzICgpIC9Nb2REYXRlIChEOjIwMjYxMDAyMTYyNTIwKzAwJzAwJykgL1Byb2R1Y2VyIChSZXBvcnRMYWIgUERGIExpYnJhcnkgLSBcKG9wZW5zb3VyY2VcKSkgCiAgL1N1YmplY3QgKFwodW5zcGVjaWZpZWRcKSkgL1RpdGxlIChTYW50b3NoIFRoYXBhIC0gUmVzdW1lKSAvVHJhcHBlZCAvRmFsc2UKPj4KZW5kb2JqCjcgMCBvYmoKPDwKL0NvdW50IDEgL0tpZHMgWyA0IDAgUiBdIC9UeXBlIC9QYWdlcwo+PgplbmRvYmoKOCAwIG9iago8PAovRmlsdGVyIFsgL0FTQ0lJODVEZWNvZGUgL0ZsYXRlRGVjb2RlIF0gL0xlbmd0aCAyNTkwCj4+CnN0cmVhbQpHYiEjXWdOMkFfKUxwKD9UcjRITyVePEFyKSNBPVtFPXVHcT1gP0ZOMU9UailKL1ZYJCxzKlpLcnBmcTRoWkxtMWFrOkpYWmBKIkhxSk8oOkMoaEtTQkJpaGc3LU1LVCswU0BLPjAnbmtlKmJsMFJqLUhHcWc8IlFEdF45WCEnKz5rQSYvQG9EV3A3bUkwTnAjciYhJUJfRllOS29MVyhqU1JfP3QqU1ZJS1pGPDZibz9qK1E1SktNQGMwL1UuKzY8QlddVXIkNG5kWjYxIkZpKF0+SmwtaGlKUT03Zlcmbz5tSVYpV11tZSJEQ288VT5ES1phajklb3RCP0QxJSpGRkhtXCU7KywxIUhRa14xLXUrVENcNV02NyckUHVgXSwxK0RmZTlqXnQzcFQ5LFNPYnMwMTBMbDpeYU05aXNnJVAiTT9hIjNSayNVRF0wcyRcKz9KPiVPUiM7UXJFR1VrWCJrO0NkbTpDTktkQ2QpbVdBQypnUjM2JUVNU0gvb0AhI1xpX1BzJWBQXGE+L2B1Y2B1NkJeMjRyQzdOOSJaMTFrQFsyOWMqJzZWTixtY2JrRDA1UU9ZazhYV2NbOEQtTGk9aT1sVURmNzwqNFU3SF5YLlNeU2I1LStrb0VYNCRuNFY8KSEsKjotYl9gbVYrKGs3S1BHdCU2WCNvMkFqUWxFckQ/bCo3VWtFQDNCMXVZNFJaJ0dDQT1ycUlPLktiaDNyTXU+RykpVytfSVJPIztdL1NUPVRjSUwhbCxoOTJALSdTVVE7XSNOZ01FV25OcTMtNm44YW9FJ3VdYkRaay9OJjpmb3RUN0c8aiFtS2JpK0deK04xNiVmQiJjJClMLGA0UzhEMFM+Ij5jYEpxKSdaVlgmSUUiciFCPlkiVilpZ3NMa0xGTV8hYTEkSmVuMiZLOyU8OipZPz4iJlwkLD1fRjVaOkN1a2Q5UlZzY29IQEFOMTVTJ0FVVWVaU2pjNT8nclYlWmJqVmM9OjBxaWMqcSpBZi8pa3MwWVdxPFpJL3E1QXMrUDhoKS0lXCVoNS9gUE06KEsmQ2k3I0M3ZUApczFWW1hVRzBoOTNrL2FJQ3VCMixTPk5wTUQ+RyUwa0snQU0vKjgwRzZudEEsdTtrJ1dyMSonPWlqOkZzNUVnPzEmRDsiQE1jTyFWaGYpQi1KVVxwOWZLcTI0ImRFSDgiKUZkaTNnXFhCbGY4Y0o6LVghIj9abjE5PW4qQ2IibzdgJzU5bVBnYVFWVmMyZCgoUyxnVipWXGYhUlFWI1g0YCw5SGBzRV0/LyVxXi5xXyJhPmRLVVddKzxZSWo0Zmk5XypcXFFhWzJwMGVhOk9XNSMsQmpIKDxGOERCSG50OjpESFZYYV1hZFAuMiw7Ym1kOWsoUy51dXNZODk0T0YycDRgUE9XO25LdTg6I0VVVVFeZVJYWCReSjpaVEduXF5KUGNrUHRbVVpyTzJkTjhfUWY7MTs6b2VJZEtgL2YxKiVfaG89NSVCTj4+R3Fgal0lVzEmUSJxQTFfYDdgS0crTFFDQ3VaNC9VP2dvMEBvRjdsPC0+PkxvXEV1Uj5DcGMmZV5bMFtaUlkmKVxDUEw0NEQ2P181cy9oSFVBRldFTzZsNC1zL25rUG4kYTxnQyNQVVZJRzheXD9HKCEuSnMuXXBVO1Y2JUI0Jk1PSGA2V2NzYWIxNkpaOEpyUmlnIk1OZ0ViUlA2LXJwJ01zKEJsXEFwZ0hVO1dNYytoZVc0Py8xSTBJIS1DZS5cQThfNU5WJy1taGs0K3F1UUp1M2VgcnF0KUIwZCJkWG9vJWkpIixfV3RLUGZxYF9IOik1YHJMMDtCQSxMKWI2UXBuYWxgJEAqSUkzI0poSEAqXD0qTFFVW2RRcl1pRm1QSGI+bFklMTE6ZkxNcz4wbUIxVDVWWXVDWEFlW2B0aj5yOEdeclZFbCNwakIiQ29HVHBiSyd0KD5BLm5BL1MrTW9kbWkxKCRpaXQhI2ZtUlo8VTIkZDEoc01BVW4ldGNwTzVATShmRDU7NmA7OWxYQXMvOCJDRkxlajlzMidqOURmXihBKi46RjAsKikqPihqblprVDErODc3bCxPYHMtSEBcUT1OYG8sWnFGJEE7RWs9Ry9bVjdBNzdVYjJNRW1QPSRMRmFHTV1vaHJwJSYmTjNPaGUqJE4jPWYwb21dY1JcPmMqLk01OmlrLTI+TiJAVlFUdTVHQDgvIiZZU18mXCxcJHFwYiZ0LS5YX1pTcWo9QThsTzE5SGprTGpIQjssYTAoLWwkZEpIX10scDdrYE8iR2orR3EsK0llXSlDVWI5NzlDJzhcaGVcKkZoQGxYJzMxLCEoO2E8KiZbPVBFNi85P0coZChMclgtPDwqPEIvT0QqRWVqJyZCTWhBJ1s/NVBUNTxFUFlbRWQ0Q3FoRy5KIVhmOD87MCg2ZS5hU1tdTFZmJGM6QWhYPDpWY1ZJWT04T0hvc1Ehb245WVV0bk04KlAxXjMpJStDbCYnRSFwPHBVTjxmWkhqV2VyX3BwbClDLCkyOWpUaVkoI3FhMHRFcTU/aVEtPTdjUmpaQkQ3STJRVkY5NzJcbGM6IkdiRz4haUtQWmM/OGM8MjBYI01gQ3JXSFMjTC1rTC0tVG1eLlNdb2k6TVdBbFY1V0Nvay0rOW1KL1M/K1RQZTgoNWMpOGFSUG9NUU9jTWBVWWN0RSUvITg+RjI5I2BWOlliLVY3MF5FRj5IWGNhWlNyR29XcmZZQVE/SVQ4bjBFQE9bJ19GQypdN149S19DPlZRdUkiSVNTWUVsNT9kclM0bTRlL1NGW0VhVEkzaGhzUkQnR0ZuLUctP24mTideYGArVl48L25SPjRmNUdQOjUqLy0jaXFNcG8zdUBGJW5sUTsvKT0mXlNyU2FvJFhEIl5qZWwiRjVlbDolPz8yTi42STplUCclNEM3MSU8Xko1SlFuR10wO09DM3FDK0M6Xms/cl1YSVBHajRQJGlXSS8xc2Q8UWNuYTFYRCgsMW5vSmJdbSVDMkE9cnFqbDo8JWQ3VCg5RjJuKCtKaUMiR10ma1NtIVAhPUZdOypJRikiXGdZQTFtVGhfW3M5NF8pOGVuJipNWEgpbyttajBjNm1aKG8+KWAuVHFMRSFGamFZXVJGUyIhKlhCc01SL1NSR2dccGxuUE5aNEZyOUFzTltTUSVkQF83NmA2R0xGU0dgVSp1VT80dGYiTEAxa1RLPkhHJ2QwXy4sW09uWj1nQ2NuLlBUTFJRLVVNMUMkW2gjdFJWZFhdbF5MblZ1LylVO2kwMnQwUzJMUmxFZy5LQz0uJjZjcDY5a0UyI211XUZCXHM7QWVYPV4jLCtdYGNSSjdybF9MP1U2KCEoVGEqLUpgYSFEc0Ijb1s/ZlZWODg2YDNmS1M6alwra19TIi1AOGYjc0tTOTVkOjRycj5uZ19gQH4+ZW5kc3RyZWFtCmVuZG9iagp4cmVmCjAgOQowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDAwNjEgMDAwMDAgbiAKMDAwMDAwMDEwMiAwMDAwMCBuIAowMDAwMDAwMjA5IDAwMDAwIG4gCjAwMDAwMDAzMjEgMDAwMDAgbiAKMDAwMDAwMDUxNCAwMDAwMCBuIAowMDAwMDAwNTgyIDAwMDAwIG4gCjAwMDAwMDA4NzEgMDAwMDAgbiAKMDAwMDAwMDkzMCAwMDAwMCBuIAp0cmFpbGVyCjw8Ci9JRCAKWzw5MTczMmRhM2Y2ZTk0OGNmZWExMWM0NGEyMTAzOWQxNj48OTE3MzJkYTNmNmU5NDhjZmVhMTFjNDRhMjEwMzlkMTY+XQolIFJlcG9ydExhYiBnZW5lcmF0ZWQgUERGIGRvY3VtZW50IC0tIGRpZ2VzdCAob3BlbnNvdXJjZSkKCi9JbmZvIDYgMCBSCi9Sb290IDUgMCBSCi9TaXplIDkKPj4Kc3RhcnR4cmVmCjM2MTEKJSVFT0YK";
+  var btn=document.getElementById("dl");
+  if(!window.claude||!claude.use){var a=document.createElement("a");a.className="btn alt";a.href="Santosh_Thapa_Resume.pdf";a.download="";a.textContent="Download resume (PDF)";btn.replaceWith(a);return;}
+  claude.use("downloads").then(function(d){
+    if(!d)return;
+    btn.hidden=false;
+    btn.addEventListener("click",function(){
+      try{
+        var bin=atob(B64),u=new Uint8Array(bin.length);
+        for(var i=0;i<bin.length;i++)u[i]=bin.charCodeAt(i);
+        d.save({filename:"Santosh_Thapa_Resume.pdf",data:new Blob([u],{type:"application/pdf"})}).catch(function(){});
+      }catch(e){}
+    });
+  }).catch(function(){});
+})();
+</script>
+<script>
+(function(){
+  var CTX="Santosh Thapa is a Mechanical Engineering undergraduate (B.S. expected 2029 at Midwestern State University, Biology minor) with an Associate Degree from Dallas College (2026), based in Dallas, Texas. Profile: broad foundation in life sciences from cellular processes to whole-organism systems; interested in fundamental physics, quantum phenomena, biomechanics, biological systems, and interdisciplinary research linking engineering, physics, and biology; seeking undergraduate research, engineering internship, and STEM opportunities. Skills: engineering mechanics and quantitative problem-solving; fundamental physics and quantum concepts; mathematical and physics-based analysis; biology, physiology, and biological systems; mechanical systems and energy conversion; biomechanics and bioengineering concepts; engineering design concepts and mechanical modeling; scientific research and technical communication. Projects: (1) Automotive Engine Mechanics Study: four-stroke cycle, piston motion, connecting rods, crankshaft, torque, power, drivetrain motion, mechanical energy conversion. (2) Physics-Biology Interdisciplinary Study: physical principles describing biological movement, forces, structure, function; interest in biomechanics. (3) Engineering Design and Problem-Solving: math and physics reasoning on conceptual mechanical problems, design principles, modeling. Biology background: cell biology, genetics, physiology, anatomy, botany, zoology, ecology, living systems, structure-function relationships, biomechanics, bioengineering. Leadership: environmental service and awareness events; engineering and mathematics STEM events; club leadership in high school; teamwork, organization, event participation, peer engagement. Research interests: quantum physics, fundamental physics, biomechanics, mechanical systems, biological systems, bioengineering, physics-biology interface. Career goal: undergraduate research, engineering internships, STEM projects, faculty-led research. Contact: thapasunny301@gmail.com, LinkedIn linkedin.com/in/santos-thapa-b657a1326.";
+  var sec=document.getElementById("aichat"),q=document.getElementById("ai-q"),go=document.getElementById("ai-go"),out=document.getElementById("ai-out");
+  if(!window.claude||!claude.use)return;
+  claude.use("sample").then(function(sample){
+    if(!sample)return;
+    sec.hidden=false;
+    var busy=false;
+    function ask(){
+      var text=q.value.trim();
+      if(!text||busy)return;
+      busy=true;go.disabled=true;out.textContent="Thinking...";
+      var ac=new AbortController();
+      sample("You are the assistant on Santosh Thapa's resume website. Answer the visitor's question in 1 to 4 short sentences, using only the facts below. If the answer is not in the facts, say you don't know and suggest emailing Santosh. Never invent details. Facts: "+CTX+"\n\nVisitor question: "+text,
+        {cache:false,signal:ac.signal,onText:function(r){out.textContent=r.text;}})
+      .then(function(r){out.textContent=r.text;})
+      .catch(function(e){
+        if(e&&e.code==="not_granted"){sec.hidden=true;return;}
+        out.textContent=(e&&e.code==="rate_limited")?"Too many questions at once. Please wait a moment and try again.":"The assistant could not answer right now. You can email Santosh instead.";
+      })
+      .then(function(){busy=false;go.disabled=false;});
+    }
+    go.addEventListener("click",ask);
+    q.addEventListener("keydown",function(e){if(e.key==="Enter")ask();});
+  }).catch(function(){});
+})();
+</script>
+<script>
+(function(){
+  var b=document.getElementById("copy-mail"),t=document.getElementById("mail-text");
+  b.addEventListener("click",function(){
+    var done=function(){b.textContent="Copied";setTimeout(function(){b.textContent="Copy email address";},2000);};
+    var sel=function(){var r=document.createRange();r.selectNodeContents(t);var s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent="Press copy on the selected address";};
+    try{navigator.clipboard.writeText("thapasunny301@gmail.com").then(done,sel);}catch(e){sel();}
+  });
+})();
+</script>
+</body>
+</html>
